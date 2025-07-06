@@ -181,7 +181,7 @@ The API uses JWT (JSON Web Token) for authentication.
 Copy the JWT token from the login response and use it to authorize in Swagger:
 
 1. Click the **"Authorize"** button in Swagger UI
-2. Enter: `Bearer your-jwt-token-here`
+2. Enter: `your-jwt-token-here`
 3. Click **"Authorize"**
 
 ![Screenshot of Swagger authorization dialog](.data/swagger_img_03.png)
