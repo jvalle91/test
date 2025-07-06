@@ -135,7 +135,7 @@ The API documentation is available through Swagger UI once the application is ru
 
 **Swagger UI**: http://localhost:8080/swagger-ui/index.html
 
-![Screenshot of Swagger UI main page](./data/swagger_img_01.png)
+![Screenshot of Swagger UI main page](.data/swagger_img_01.png)
 
 ### Available Endpoints
 
@@ -166,7 +166,7 @@ The API uses JWT (JSON Web Token) for authentication.
 }
 ```
 
-![Screenshot of login request in Swagger](./data/swagger_img_02.png)
+![Screenshot of login request in Swagger](.data/swagger_img_02.png)
 
 **Response**:
 ```json
@@ -184,13 +184,13 @@ Copy the JWT token from the login response and use it to authorize in Swagger:
 2. Enter: `Bearer your-jwt-token-here`
 3. Click **"Authorize"**
 
-![Screenshot of Swagger authorization dialog](./data/swagger_img_03.png)
+![Screenshot of Swagger authorization dialog](.data/swagger_img_03.png)
 
 ### Step 3: Making Authenticated Requests
 
 Now you can call protected endpoints. The token will be automatically included in requests.
 
-![Screenshot of successful authorization status](./data/swagger_img_04.png)
+![Screenshot of successful authorization status](.data/swagger_img_04.png)
 
 ## Usage Examples
 
@@ -226,7 +226,7 @@ Now you can call protected endpoints. The token will be automatically included i
 ]
 ```
 
-![Screenshot of successful authorization status](./data/swagger_img_05.png)
+![Screenshot of successful authorization status](.data/swagger_img_05.png)
 
 ### Error Responses
 
